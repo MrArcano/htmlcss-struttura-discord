@@ -35,16 +35,20 @@ header #nav #login{
   background-color: #daa520;
   width: 20%;
   height: 50px; /* da levare */
-  padding: 15px;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+
 }
 
 header #nav #menu{
   width: 60%;
-  text-align: center;
+  justify-content: space-evenly;
 }
 
 header #nav #login{
-  text-align: right;
+  justify-content: flex-end;
 }
 
 /* Header-bottom / hero */
@@ -57,8 +61,8 @@ header #hero{
 header #hero #hero-text{
   background-color: #ee82ee;
   width: 60%;
-  margin: 0 auto;
   height: 400px; /* da rivedere */
+  padding: 0 20px;
 
   display: flex;
   flex-direction: column;
@@ -98,11 +102,15 @@ main .box-grey{
 
 main .box-image{
   background-color: #1e90ff;
+  padding: 20px;
+  
   flex-grow: 1.5;
 }
 
 main .box-text{
   background-color: #ffc0cb;
+  padding: 20px;
+
   flex-grow: 1;
 }
 
