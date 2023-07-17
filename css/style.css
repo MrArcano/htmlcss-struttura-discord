@@ -33,11 +33,8 @@ header #nav #logo,
 header #nav #menu,
 header #nav #login{
   background-color: #daa520;
-
   width: 20%;
-
   height: 50px; /* da levare */
-
   padding: 15px;
 }
 
@@ -140,12 +137,12 @@ footer{
   background-color: #23272a;
   padding-top: 10px;
 }
-/* footer-top */
 
+/* footer-top */
 .footer-top{
   display: flex;
   height: 500px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   border-bottom: 1px solid white;
 }
 
@@ -159,5 +156,21 @@ footer{
   flex-grow: 1;
 }
 
-
 /* footer-bot */
+.footer-bottom{
+  background-color: #7fffd4;
+  margin-top: 30px;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 0;
+}
+
+.footer-bottom .logo,
+.footer-bottom .button{
+  background-color: #ffb6c1;
+  padding: 5px 10px;
+}
