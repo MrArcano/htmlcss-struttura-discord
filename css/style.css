@@ -65,7 +65,7 @@ header #hero #hero-text{
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -117,13 +117,15 @@ main .box-big{
   background-color: #228b22;
   width: 100%;
   height: 750px; /* da levare */
+  padding: 0 20px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .box-big .box-image{
   flex-grow: 0;
+  width: 100%;
 }
