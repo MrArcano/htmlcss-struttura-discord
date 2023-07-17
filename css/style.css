@@ -84,3 +84,23 @@ header #hero #hero-text{
   padding: 5px 15px;
 }
 /* FINE Header-bottom / hero */
+
+/* Main */
+
+/* section image & text */
+
+main .box{
+  display: flex;
+}
+
+main .box-image{
+  background-color: #1e90ff;
+  flex-grow: 1.5;
+  height: 500px; /* da levare */
+}
+
+main .box-text{
+  background-color: #ffc0cb;
+  flex-grow: 1;
+  height: 500px;
+}
