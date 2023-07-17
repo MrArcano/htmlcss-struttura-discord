@@ -13,6 +13,10 @@
   margin: 0 auto;
 }
 
+.border-box{
+  border: 2px dotted black;
+}
+
 /* Header-top / menu */
 
 #header-top{
@@ -29,7 +33,6 @@ header #nav #logo,
 header #nav #menu,
 header #nav #login{
   background-color: #daa520;
-  border: 2px dotted black;
 
   width: 20%;
 
@@ -59,7 +62,6 @@ header #hero #hero-text{
   width: 60%;
   margin: 0 auto;
   height: 400px; /* da rivedere */
-  border: 2px dotted black;
 
   display: flex;
   flex-direction: column;
@@ -71,7 +73,6 @@ header #hero #hero-text{
 #hero-text p,
 #hero-text button{
   background-color: aliceblue;
-  border: 2px dotted black;
 }
 
 #hero-text p{
