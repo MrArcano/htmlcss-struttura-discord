@@ -1,0 +1,50 @@
+/* GENERAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Utility */
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Header */
+
+#header-top{
+  background-color: #add8e6;
+}
+
+header #nav{
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+
+
+header #nav #logo,
+header #nav #menu,
+header #nav #login{
+  background-color: #daa520;
+  border: 2px dotted black;
+
+  width: 20%;
+
+  height: 50px; /* da levare */
+
+  padding: 15px;
+}
+
+header #nav #menu{
+  width: 60%;
+  text-align: center;
+}
+
+header #nav #login{
+  text-align: right;
+}
