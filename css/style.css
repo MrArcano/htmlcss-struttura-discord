@@ -85,7 +85,7 @@ header #hero #hero-text{
 }
 /* FINE Header-bottom / hero */
 
-/* Main */
+/* MAIN */
 
 /* section image & text */
 
@@ -129,3 +129,35 @@ main .box-big{
   flex-grow: 0;
   width: 100%;
 }
+/* fine section big box */
+
+/* fine MAIN */
+
+
+
+/* FOOTER */
+footer{
+  background-color: #23272a;
+  padding-top: 10px;
+}
+/* footer-top */
+
+.footer-top{
+  display: flex;
+  height: 500px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid white;
+}
+
+.column-big{
+  background-color: #f08080;
+  flex-grow: 2;
+}
+
+.column-small{
+  background-color: #20b2aa;
+  flex-grow: 1;
+}
+
+
+/* footer-bot */
