@@ -91,16 +91,21 @@ header #hero #hero-text{
 
 main .box{
   display: flex;
+  margin: 50px auto;
+  height: 500px /* da levare */
 }
+
+main .box{
+  background-color: #d3d3d3;
+}
+
 
 main .box-image{
   background-color: #1e90ff;
   flex-grow: 1.5;
-  height: 500px; /* da levare */
 }
 
 main .box-text{
   background-color: #ffc0cb;
   flex-grow: 1;
-  height: 500px;
 }
